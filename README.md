@@ -1,50 +1,44 @@
-# Welcome to your Expo app 👋
+# Habit App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple habit-tracking app built with React Native and Expo.  
+It helps you create habits, mark daily completions, and view your weekly progress at a glance.
 
-## Get started
+This is just an example of what a usable version of this app my look like.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Create habits and track them across the week  
+- Mark daily completions with a tap  
+- Weekly overview of progress
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/)  
+- TypeScript  
+- State management with React hooks  
+- Cross-platform (Android, iOS, Web)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Getting Started
 
-When you're ready, run:
+### Prerequisites
+- Node.js (LTS recommended)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Git
 
+### Setup
 ```bash
-npm run reset-project
-```
+# Clone repo
+git clone https://github.com/USERNAME/habit-app.git
+cd habit-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start dev server
+npx expo start
